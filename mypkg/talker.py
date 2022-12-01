@@ -6,7 +6,6 @@ rclpy.init()
 node = Node("talker")
 pub = node.create_publisher(Person, "person", 10)
 n = 0
-
 def cb():
     global n
     msg = Person()
