@@ -13,3 +13,5 @@ pub = node.create_subscription(Person, "person", cb, 10)
 
 rclpy.spin(node)
 
+#if__name__=='__main__':
+ #   main()
