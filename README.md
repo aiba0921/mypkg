@@ -16,6 +16,9 @@
     
   * listener.py
     * メッセージを受け受け取り、出力する側
+  
+  * talk_listen.launch.py
+    * このパッケージにあるノードを一度に立ち上げる
     
 ## 実行方法
   * ````$ cd mypkg````でディレクトリに移動
@@ -23,20 +26,20 @@
     ````
     $ ros2 launch mypkg talk_listen.launch.py
     [INFO] [launch]: All log files can be found below /home/aibay/.ros/log/2023-01-03-12-59-26-144435-DESKTOP-4DPTDA2-1334
-[INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [talker-1]: process started with pid [1335]
-[INFO] [listener-2]: process started with pid [1337]
-[listener-2] [INFO] [1672718366.890392600] [listener]: Listen: 0
-[listener-2] [INFO] [1672718367.380941300] [listener]: Listen: 1
-[listener-2] [INFO] [1672718367.880556700] [listener]: Listen: 2
-[listener-2] [INFO] [1672718368.381355900] [listener]: Listen: 3
-[listener-2] [INFO] [1672718368.881343600] [listener]: Listen: 4
-[listener-2] [INFO] [1672718369.381606900] [listener]: Listen: 5
-[listener-2] [INFO] [1672718369.881293100] [listener]: Listen: 6
-[listener-2] [INFO] [1672718370.381408900] [listener]: Listen: 7
-[listener-2] [INFO] [1672718370.879201700] [listener]: Listen: 8
-[listener-2] [INFO] [1672718371.378691200] [listener]: Listen: 9
-[listener-2] [INFO] [1672718371.878899200] [listener]: Listen: 10
+    [INFO] [launch]: Default logging verbosity is set to INFO
+    [INFO] [talker-1]: process started with pid [1335]
+    [INFO] [listener-2]: process started with pid [1337]
+    [listener-2] [INFO] [1672718366.890392600] [listener]: Listen: 0
+    [listener-2] [INFO] [1672718367.380941300] [listener]: Listen: 1
+    [listener-2] [INFO] [1672718367.880556700] [listener]: Listen: 2
+    [listener-2] [INFO] [1672718368.381355900] [listener]: Listen: 3
+    [listener-2] [INFO] [1672718368.881343600] [listener]: Listen: 4
+    [listener-2] [INFO] [1672718369.381606900] [listener]: Listen: 5
+    [listener-2] [INFO] [1672718369.881293100] [listener]: Listen: 6
+    [listener-2] [INFO] [1672718370.381408900] [listener]: Listen: 7
+    [listener-2] [INFO] [1672718370.879201700] [listener]: Listen: 8
+    [listener-2] [INFO] [1672718371.378691200] [listener]: Listen: 9
+    [listener-2] [INFO] [1672718371.878899200] [listener]: Listen: 10
 
 ## ライセンス
   * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
