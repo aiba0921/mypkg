@@ -9,13 +9,14 @@
 ![test](https://github.com/aiba0921/mypkg/actions/workflows/test.yml/badge.svg)
 ## 動作確認済み環境
   * Ubuntu 20.04.5 LTS
+  * ROS2 Humble
 
 ## リポジトリの概要
   * talker.py
-    * メッセージを送る側
+    * countupというトピックを用いて16ビットの符号付き整数を送信する
     
   * listener.py
-    * メッセージを受け受け取り、出力する側
+    * countupからメッセージを受信し、出力する側
   
   * talk_listen.launch.py
     * このパッケージにあるノードを一度に立ち上げる
